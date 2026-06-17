@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Assignment 2</title>
+</head>
+
+<body bgcolor="pink">
+	<center>
+		<h1>WELCOME TO SWADESHI CO.PVT.LTD.</h1>
+		<h4>Please fill the order form:</h4>
+	</center>
+
+	<form>
+		Name: &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text"><br><br>
+		Email ID: &nbsp&nbsp&nbsp&nbsp<input type="email"><br><br>
+		Contact No: <input type="number"><br><br>
+		Pincode: &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="number"><br><br><br><br>
+	</form>
+
+	<table border=2>
+		<tr>
+			<th>PRODUCT_NAME</th><th>PRODUCT_ID</th><th>QUANTITY</th><th>UNIT PRICE</th><th>TOTAL</th>
+		</tr>
+		<tr>
+			<td>Kurta_Pyjama</td><td>KP</td><td><input type="number"></td><td>Rs 1500</td><td><input type="number"></td>
+		</tr>
+		<tr>
+			<td>Blazer</td><td>BLZ</td><td><input type="number"></td><td>Rs 3300</td><td><input type="number"></td>
+		</tr>
+		<tr>
+			<td>Sweatshirt</td><td>SWT</td><td><input type="number"></td><td>Rs 899</td><td><input type="number"></td>
+		</tr>
+		<tr>
+			<td>Nehru_Jacket</td><td>NHJ</td><td><input type="number"></td><td>Rs 1200</td><td><input type="number"></td>
+		</tr>
+		<tr>
+			<td>Shirt</td><td>SHIRT</td><td><input type="number"></td><td>Rs 599</td><td><input type="number"></td>
+		</tr>
+		<tr>
+			<td>Trouser</td><td>TRU</td><td><input type="number"></td><td>Rs 1299</td><td><input type="number"></td>
+		</tr>
+		<tr>
+			<td colspan=4>Grand_Total</td><td><input type="number"></td>
+		</tr>
+	</table>
+	<br><br><br><br>
+
+	<h3>CREDIT/DEBIT CARD DETAILS</h3>
+	<p>Card Type:</p>
+	<form>
+		<input type="radio" name="type" value="master">Master Card &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Card Number&nbsp&nbsp<input type="number"><br>
+		<input type="radio" name="type" value="master">Visa Card<br>
+		<input type="radio" name="type" value="master">American Express &nbsp&nbsp&nbsp Expiry Date&nbsp&nbsp&nbsp&nbsp<input type="number" placeholder="MM/YY"><br>
+		<input type="radio" name="type" value="master">Rupay Card<br>
+		<input type="radio" name="type" value="master">Other Card &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp CVV Number&nbsp<input type="number" maxlength=3><br><br>
+	</form>
+
+	<h3>DELIVERY ADDRESS</h3>
+	<br>
+	<br>
+
+	<input type="submit" value="Send Order">
+	<input type="reset" value="Clear Form">
+</body>
+</html>
